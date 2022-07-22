@@ -1,0 +1,36 @@
+.skill {
+    position: relative;
+  animation: run 3s linear infinite;
+  width: 5vw;
+}
+
+@keyframes run {
+  0% {
+      left: 0
+      
+  }
+  48% {
+    -webkit-transform: rotateY(0deg); 
+  }
+  50% { 
+    left: calc(100% - 90%);
+    -webkit-transform: rotateY(180deg); 
+  }
+  98% {
+    -webkit-transform: rotateY(180deg); 
+  }
+  100% {
+    left: 0;    
+    bottom: 100;
+     -webkit-transform: rotateY(0deg);
+  }
+}
+
+@media screen and (max-width: 1250px) {
+
+  .skill{
+    width: 10vw;
+  }
+
+
+}

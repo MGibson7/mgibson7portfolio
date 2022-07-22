@@ -1,0 +1,44 @@
+.resourceMain h2{
+    text-align: center;
+color: #008080;
+font-size: 3vw;
+padding: 0px;
+margin-top: 0px;
+
+}
+.resumeLinks{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.resumeLinks img{
+    height: auto;
+    width: 20%;
+    cursor: pointer;
+}
+
+.resumeLinks img:hover{
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+ } 
+
+ @media screen and (max-width: 1000px){
+     .resumeLinks{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .resumeLinks img{
+         width: 30%;
+         height: auto;
+     }
+
+ }
