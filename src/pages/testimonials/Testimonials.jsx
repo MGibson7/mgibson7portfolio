@@ -13,7 +13,11 @@ const Testimonials = () => {
             Additionally, he performed data analysis on our customer base to reveal our top ROI in respect to ads and customer types.
             His overall work offered a great boost to my start up in its early stages! 
           </p>
+          <div className="person">
           <h3> - ARNOLD FERREIRAS, CEO JUNK GURUS</h3>
+          <img src="./junk.JPG" alt="" />
+            </div>
+
 
         </div>
         <div className="testimonialOne">
@@ -35,7 +39,11 @@ const Testimonials = () => {
             Additionally, he performed data analysis on our customer base to reveal our top ROI in respect to ads and customer types.
             His overall work offered a great boost to my start up in its early stages! 
           </p>
+          <div className="person">
+            <img src="./junk.JPG" alt="" />
           <h3> - ARNOLD FERREIRAS, CEO JUNK GURUS</h3>
+            </div>
+          
           
 
         </div>
