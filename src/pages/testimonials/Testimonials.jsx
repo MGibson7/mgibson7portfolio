@@ -6,6 +6,16 @@ const Testimonials = () => {
     <div className="testimonialMain">
      <h2>TESTIMONIALS AND REFERRALS</h2>
       <div className="testimonialTests">
+      <div className="testimonialOne">
+      <p>Planning, coordinating, and motivating are just a few of the skills Michael has mastered to provide a positive end user experience for subscribers.
+        Michael has a talent for keeping all the pieces of a process moving in the right direction and can multitask with ease. 
+          </p>
+          <div className="person">
+          <h3> - SUNEIL CHANDER, STRATEGIC GROWTH MANAGER NATIONAL PARTNERSHIPS</h3>
+          <img src="./viasat.png" alt="" />
+            </div>
+          
+          </div>
         <div className="testimonialOne">
           <p>Needed an app to blast incoming project alerts out to my contractors in real time. 
             Michael created it in less than 24 hours and showed me how to use the app easily on both my desktop and phone. 
@@ -20,9 +30,7 @@ const Testimonials = () => {
 
 
         </div>
-        <div className="testimonialOne">
-          
-        </div>
+       
         <div className="testimonialOne">
           
         </div>
