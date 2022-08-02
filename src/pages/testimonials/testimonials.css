@@ -80,6 +80,7 @@ vertical-align: center;
     margin-top: 0px;
     margin-bottom: 2px;
     height: auto;
+    max-height: 50%;
 }
 
 @media screen and (max-width: 1000px){
