@@ -32,14 +32,20 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
-font-size: large;
+font-size: 90%;
 color: #7fffd4;
 text-align: center;
 margin-bottom: 1vw;
 align-self: center;
-height: 50vh;
+height: 40vh;
+display: flex;
+flex-direction: column;
+vertical-align: center;
+  justify-content: center;
+  align-items: center;
 
 }
+
 
 .testimonialOne:hover{
     transform: scale(1.1);
@@ -50,11 +56,20 @@ height: 50vh;
     flex-direction: column;
     max-width: 100%;
     margin: 0px;
+    vertical-align: center;
+  justify-content: center;
+  align-items: center;
     
 }
 
+.person p{
+    vertical-align: center;
+    text-align: center;
+}
+
 .person h3{
-    margin: 0px;
+    margin-top: 2px;
+    vertical-align: center;
 }
 
 .person img{
@@ -64,6 +79,7 @@ height: 50vh;
     align-self: center;
     margin-top: 0px;
     margin-bottom: 2px;
+    height: auto;
 }
 
 @media screen and (max-width: 1000px){
@@ -77,5 +93,6 @@ height: 50vh;
         width: 80%;
         margin-left: 1vw;
         margin-right: 1vw;
+        height: 100%;
     }
 }
