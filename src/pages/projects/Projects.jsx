@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
 
         <div className="projectFea">
-        <iframe className="iframeImg" src="https://ecommhalloween.vercel.app/" title="EcommHalloween"></iframe>
+        <iframe scrolling="no" className="iframeImg" src="https://ecommhalloween.vercel.app/" title="EcommHalloween"></iframe>
         <a href="https://ecommhalloween.vercel.app/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
         <a href="https://github.com/MGibson7/ecommhalloween" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
         <button className="projectInfo" onClick={handleDisplay2}>INFO</button>
@@ -47,7 +47,7 @@ const Projects = () => {
         </div>
 
         <div className="projectFea">
-        <iframe className="iframeImg" src="https://fantasyfootballsocial2.herokuapp.com/" title="AlgoFlix"></iframe>
+        <ifram scrolling="no"e className="iframeImg" src="https://fantasyfootballsocial2.herokuapp.com/" title="AlgoFlix"></iframe>
         <a href="https://fantasyfootballsocial2.herokuapp.com/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
         <a href="https://github.com/MGibson7/fantasyfootballsocial_final" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
         <button className="projectInfo" onClick={handleDisplay3}>INFO</button>
@@ -55,7 +55,7 @@ const Projects = () => {
         </div> 
 
         <div className="projectFea">
-        <iframe className="iframeImg" src="https://mgibson7.github.io/networthStatement/" title="AlgoFlix"></iframe>
+        <iframe scrolling="no" className="iframeImg" src="https://mgibson7.github.io/networthStatement/" title="AlgoFlix"></iframe>
         <a href="https://mgibson7.github.io/networthStatement/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
         <a href="https://github.com/MGibson7/networthStatement" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
         <button className="projectInfo" onClick={handleDisplay4}>INFO</button>
@@ -63,7 +63,7 @@ const Projects = () => {
         </div> 
 
         <div className="projectFea">
-        <iframe className="iframeImg" src="https://mgibson7.github.io/freefiretools/" title="AlgoFlix"></iframe>
+        <iframe scrolling="no" className="iframeImg" src="https://mgibson7.github.io/freefiretools/" title="AlgoFlix"></iframe>
         <a href="https://mgibson7.github.io/freefiretools/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
         <a href="https://github.com/MGibson7/freefiretools" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
         <button className="projectInfo" onClick={handleDisplay5}>INFO</button>
