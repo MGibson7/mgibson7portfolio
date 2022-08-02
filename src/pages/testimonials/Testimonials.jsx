@@ -7,6 +7,17 @@ const Testimonials = () => {
      <h2>TESTIMONIALS AND REFERRALS</h2>
       <div className="testimonialTests">
       <div className="testimonialOne">
+      <p>Been impressed with what he's been able to accomplish and learn in this field on his own. Highly motivated and I believe he'd be an excellent fit for any team!
+          </p>
+          <div className="person">
+          <h3> - CHRIS MURPHY, SOFTWARE ENGINEER</h3>
+          <img src="./ibm.png" alt="" />
+            </div>
+          
+          
+          </div>
+
+      <div className="testimonialOne">
       <p>Planning, coordinating, and motivating are just a few of the skills Michael has mastered to provide a positive end user experience for subscribers.
         Michael has a talent for keeping all the pieces of a process moving in the right direction and can multitask with ease. 
           </p>
@@ -31,9 +42,7 @@ const Testimonials = () => {
 
         </div>
        
-        <div className="testimonialOne">
-          
-        </div>
+      
         
     
   
