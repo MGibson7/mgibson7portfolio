@@ -29,7 +29,7 @@ const Projects = () => {
     <h2>FEATURED PROJECTS</h2>
     <div className="iframes">
         <div className="projectFea">
-          <iframe className="iframeImg" src="https://algoflix.herokuapp.com/" title="AlgoFlix"></iframe> 
+          <iframe scrolling="no" className="iframeImg" src="https://algoflix.herokuapp.com/" title="AlgoFlix"></iframe> 
         
         <a href="https://algoflix.herokuapp.com/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
 
@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
 
         <div className="projectFea">
-        <iframe className="iframeImg" src="https://ecommhalloween.vercel.app/" title="AlgoFlix"></iframe>
+        <iframe className="iframeImg" src="https://ecommhalloween.vercel.app/" title="EcommHalloween"></iframe>
         <a href="https://ecommhalloween.vercel.app/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
         <a href="https://github.com/MGibson7/ecommhalloween" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
         <button className="projectInfo" onClick={handleDisplay2}>INFO</button>
