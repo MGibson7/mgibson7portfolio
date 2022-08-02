@@ -47,7 +47,7 @@ const Projects = () => {
         </div>
 
         <div className="projectFea">
-        <ifram scrolling="no"e className="iframeImg" src="https://fantasyfootballsocial2.herokuapp.com/" title="AlgoFlix"></iframe>
+        <iframe scrolling="no" className="iframeImg" src="https://fantasyfootballsocial2.herokuapp.com/" title="AlgoFlix"></iframe>
         <a href="https://fantasyfootballsocial2.herokuapp.com/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
         <a href="https://github.com/MGibson7/fantasyfootballsocial_final" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
         <button className="projectInfo" onClick={handleDisplay3}>INFO</button>
