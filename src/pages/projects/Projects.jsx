@@ -33,7 +33,7 @@ const Projects = () => {
         
         <a href="https://algoflix.herokuapp.com/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
 
-        <a href="https://github.com/MGibson7/ecommhalloween" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
+        <a href="https://github.com/MGibson7/algoflix" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
         <button className="projectInfo" onClick={handleDisplay}>INFO</button>
         <p className="descript" style={{display: display? 'flex' : 'none'}}>A full stack Netflix clone to host my algorithm videos. Utilizes MongoDB, Express, React, NodeJS, and SCSS </p>
         </div>
