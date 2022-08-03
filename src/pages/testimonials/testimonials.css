@@ -36,7 +36,7 @@ color: #7fffd4;
 text-align: center;
 margin-bottom: 1vw;
 align-self: center;
-height: 40vh;
+height: 50vh;
 display: flex;
 flex-direction: column;
 vertical-align: center;
@@ -62,7 +62,6 @@ vertical-align: center;
 }
 
 .person p{
-    vertical-align: center;
     text-align: center;
 }
 
