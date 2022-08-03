@@ -7,7 +7,7 @@ const Testimonials = () => {
      <h2>TESTIMONIALS AND REFERRALS</h2>
       <div className="testimonialTests">
       <div className="testimonialOne">
-      <p>Been impressed with what he's been able to accomplish and learn in this field on his own. Highly motivated and I believe he'd be an excellent fit for any team!
+      <p>Impressed with what he's been able to accomplish and learn in this field on his own. Fast learner and dedicated to enhancing his skillset daily. Highly motivated and I believe he'd be an excellent fit for any team!
           </p>
           <div className="person">
           <h3> - CHRIS MURPHY, SOFTWARE ENGINEER</h3>
