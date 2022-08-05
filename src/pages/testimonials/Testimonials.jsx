@@ -50,6 +50,12 @@ const Testimonials = () => {
 </div>
 <div className="testimonialTests">
         <div className="testimonialOne">
+        <p>Excellent communicator and always great to work with! Thorough, meticulous, and truly cares about all parties' needs in a deal. Have really enjoyed conducting business with him over the years!
+          </p>
+          <div className="person">
+          <h3> - MILES COOPER, STATE FARM BRANCH MANAGER</h3>
+          <img src="./farm.png" alt="" />
+          </div>
       
           
           
