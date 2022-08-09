@@ -1,22 +1,26 @@
 .navbar{
-    max-width: 100%;
-    height: 7vh;
+    width: 100%;
+    height: 3vh;
     display: flex;
-    top: 0;
     justify-content: center;
+    background-color: #008080;
+    margin-bottom: 1vh;
+    margin-top: 0px;
 }
 
 .navbar *{
     margin-right: 1vw;
     cursor: pointer;
     color: #7fffd4;
-    font-size: 1vw;
+    font-size: 2vh;
     padding: 0px;
     vertical-align: center;
+    object-fit: contain;
 }
 
 .navbar h3{
     padding: 0px;
+    margin: 0px;
 }
 
 .navbar h3:hover{
@@ -44,7 +48,8 @@
 
 @media screen and (max-width: 1000px){
     .navbar{
-        height: 5vh;
+        height: 3vw;
+        margin-bottom: 1vh;
     }
     .navbar *{
         font-size: 2vw;

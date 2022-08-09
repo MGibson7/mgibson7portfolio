@@ -11,11 +11,11 @@ const Resources = () => {
         </a>
 
         <a href="https://linkedin.com/in/michael-gibson7" target = "_blank" rel="noreferrer noopener">
-        <img src="./linkedin.svg" alt="" />
+        <img src="./linkedin.png" alt="" />
         </a>
 
         <a href="https://www.youtube.com/channel/UCApFDEFeHM_Tr7Mf2LsGO3A/videos" target = "_blank" rel="noreferrer noopener">
-        <img src="./youtube.webp" alt="" />
+        <img src="./yt.png" alt="" />
         </a>
     
         
