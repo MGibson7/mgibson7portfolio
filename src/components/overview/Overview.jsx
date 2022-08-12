@@ -7,8 +7,8 @@ const Overview = () => {
         <div className="left">
         <img
     src="./mg4.jpg"
-    onMouseOver={e => (e.currentTarget.style.opacity = "0.9")} alt = ""
-    onMouseOut={e => (e.currentTarget.style.opacity = "0.7")}
+    onMouseOver={e => (e.currentTarget.style.border = "5px solid #7fffd4")} alt = ""
+    onMouseOut={e => (e.currentTarget.style.border = "none")}
   />
             
         </div>
