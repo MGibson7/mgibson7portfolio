@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10vh;
+    background: rgb(2,0,36);
+  background: radial-gradient(circle, rgb(0, 75, 33) 0%, rgba(25,25,24,1) 35%, rgb(27, 26, 26) 100%);
 }
 
 .left{
