@@ -1,8 +1,12 @@
 import "./overview.css"
 import Skills from "../skills/Skills"
+import Projects from "../../pages/projects/Projects"
+import Testimonials from "../../pages/testimonials/Testimonials"
+import Resources from "../../pages/resources/Resources"
 
 const Overview = () => {
   return (
+    <>
     <div className="main">
         <div className="left">
         <img
@@ -23,6 +27,10 @@ const Overview = () => {
 
         </div>
     </div>
+    <Projects/>
+    <Testimonials/>
+    <Resources/>
+    </>
   )
 }
 
