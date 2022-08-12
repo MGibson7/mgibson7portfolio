@@ -6,9 +6,9 @@ const Overview = () => {
     <div className="main">
         <div className="left">
         <img
-    src="./mg2.jpg"
-    onMouseOver={e => (e.currentTarget.src = "./mg3.jpg")} alt = ""
-    onMouseOut={e => (e.currentTarget.src = "./mg2.jpg")}
+    src="./mg4.jpg"
+    onMouseOver={e => (e.currentTarget.style.opacity = "0.9")} alt = ""
+    onMouseOut={e => (e.currentTarget.style.opacity = "0.7")}
   />
             
         </div>

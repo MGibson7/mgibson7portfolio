@@ -1,5 +1,6 @@
 body{
-    background-color: #2f4f4f;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgb(0, 75, 33) 0%, rgb(7, 7, 0) 35%, rgb(27, 26, 26) 100%);
 }
 .masterContainer{
   width: 100%;

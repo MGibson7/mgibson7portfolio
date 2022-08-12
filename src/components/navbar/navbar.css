@@ -3,10 +3,11 @@
     height: 3vh;
     display: flex;
     justify-content: center;
-    background-color: #008080;
     margin-bottom: 1vh;
     margin-top: 0px;
     border-radius: 5%;
+    background-color: rgba(25,25,24,1);
+    border: 1px solid #7fffd4
 }
 
 .navbar *{
