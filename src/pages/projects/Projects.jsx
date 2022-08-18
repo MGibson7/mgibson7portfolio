@@ -63,7 +63,7 @@ const Projects = () => {
         <a href="https://mgibson7.github.io/networthStatement/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
         <a href="https://github.com/MGibson7/networthStatement" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
         <button className="projectInfo" onClick={handleDisplay4}>INFO</button>
-        <p className="descript" style={{display: display4? 'flex' : 'none'}}>A webapp for charting your networt and seeing where you stand. Utilizes vanilla Javascript and CSS  </p>
+        <p className="descript" style={{display: display4? 'flex' : 'none'}}>A webapp for charting your networth and seeing where you stand. Utilizes vanilla Javascript and CSS  </p>
         </div> 
 
         <div className="projectFea "  onMouseOver={e => (e.currentTarget.style.border = "5px solid #7fffd4")} alt = ""
