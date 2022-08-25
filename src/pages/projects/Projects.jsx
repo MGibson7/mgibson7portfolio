@@ -28,6 +28,15 @@ const Projects = () => {
 
     <h2>FEATURED PROJECTS</h2>
     <div className="iframes">
+    <div className="projectFea "  onMouseOver={e => (e.currentTarget.style.border = "5px solid #7fffd4")} alt = ""
+    onMouseOut={e => (e.currentTarget.style.border = "none")}>
+        <iframe scrolling="no" className="iframeImg" src="https://personalfinancemetrics.netlify.app/" title="AlgoFlix"></iframe>
+        <a href="https://personalfinancemetrics.netlify.app/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
+        <a href="https://github.com/MGibson7/personalfinancemetrics" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
+        <button className="projectInfo" onClick={handleDisplay5}>INFO</button>
+        <p className="descript" style={{display: display5? 'flex' : 'none'}}>A personal finance app with React to get a quick overview on how you're shaping up for retirement. </p>
+        </div> 
+        
         <div className="projectFea " onMouseOver={e => (e.currentTarget.style.border = "5px solid #7fffd4")} alt = ""
     onMouseOut={e => (e.currentTarget.style.border = "none")}>
           <iframe scrolling="no" className="iframeImg" src="https://algoflix.herokuapp.com/" title="AlgoFlix"></iframe> 
@@ -57,14 +66,7 @@ const Projects = () => {
         <p className="descript" style={{display: display3? 'flex' : 'none'}}>A full stack social media site. Utilizes MongoDB, Express, React, NodeJS, and CSS </p>
         </div> 
 
-        <div className="projectFea "  onMouseOver={e => (e.currentTarget.style.border = "5px solid #7fffd4")} alt = ""
-    onMouseOut={e => (e.currentTarget.style.border = "none")}>
-        <iframe scrolling="no" className="iframeImg" src="https://personalfinancemetrics.netlify.app/" title="AlgoFlix"></iframe>
-        <a href="https://personalfinancemetrics.netlify.app/" target = "_blank" rel="noreferrer noopener"><button>LIVE SITE</button></a>
-        <a href="https://github.com/MGibson7/personalfinancemetrics" target = "_blank" rel="noreferrer noopener"><button className="source">SOURCE CODE</button></a>
-        <button className="projectInfo" onClick={handleDisplay5}>INFO</button>
-        <p className="descript" style={{display: display5? 'flex' : 'none'}}>A personal finance app with React to get a quick overview on how you're shaping up for retirement. </p>
-        </div> 
+      
 
         <div className="projectFea"  onMouseOver={e => (e.currentTarget.style.border = "5px solid #7fffd4")} alt = ""
     onMouseOut={e => (e.currentTarget.style.border = "none")}>
